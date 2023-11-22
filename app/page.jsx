@@ -1,5 +1,5 @@
 import FullView from "./components/FullView";
-import Wel from "./components/FullView";
+import Wel from "./components/Wel";
 
 export default function Home() {
 
