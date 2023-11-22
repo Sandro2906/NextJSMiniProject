@@ -8,7 +8,7 @@ const View = ({id, title, price, thumbnail}) => {
         <h1 className='text-4xl text-white font-extrabold'>{title}</h1>
         <h1 className='text-2xl text-white font-semibold my-2'>{price}$</h1>
         <div className='w-full h-[300px]'> 
-        <img src={thumbnail}   className='object-cover w-full h-full rounded-lg' />
+        <img src={thumbnail} className='object-cover w-full h-full rounded-lg' alt='Pictures' />
         </div>
         <Button id={id} />
     </div>
