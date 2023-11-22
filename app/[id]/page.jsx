@@ -18,7 +18,7 @@ const PageId = async ({params}) => {
       <h1 className='text-6xl font-semibold'>{data.title}</h1>
       </div>
       <div className='w-full h-[450px] flex justify-center items-center'>
-     <img className='w-full h-full object-cover rounded-lg' src={data.thumbnail} />
+     <img className='w-full h-full object-cover rounded-lg' src={data.thumbnail} alt='Pictures'/>
      </div>
       <div className='w-[300px] h-[100px] flex justify-center items-center my-5 bg-purple-500 rounded-full shadow-md'>
       <h1 className='text-4xl font-semibold'>Price: {data.price}$</h1>
